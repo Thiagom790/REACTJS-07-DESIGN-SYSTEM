@@ -2,6 +2,7 @@ import { themes } from '@storybook/theming'
 import type { Preview } from '@storybook/react'
 
 const preview: Preview = {
+  tags: ['autodocs'],
   parameters: {
     backgrounds: {
       default: 'dark',
