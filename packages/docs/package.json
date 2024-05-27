@@ -1,5 +1,5 @@
 {
-  "name": "@ignite-ui/docs",
+  "name": "@thiagom790-ignite-ui/docs",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -20,10 +20,10 @@
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^1.4.0",
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/react": "*",
-    "@ignite-ui/tokens": "*",
-    "@ignite-ui/ts-config": "*",
+    "@thiagom790-ignite-ui/eslint-config": "*",
+    "@thiagom790-ignite-ui/react": "*",
+    "@thiagom790-ignite-ui/tokens": "*",
+    "@thiagom790-ignite-ui/ts-config": "*",
     "@storybook/addon-essentials": "^8.1.1",
     "@storybook/addon-interactions": "^8.1.1",
     "@storybook/addon-links": "^8.1.1",

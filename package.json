@@ -1,17 +1,18 @@
 {
-  "name": "ignite-ui",
+  "name": "thiagom790-ignite-ui",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
     "dev": "turbo run dev --parallel",
-    "build": "turbo run build"
+    "build": "turbo run build",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "turbo run build --filter=@thiagom790-ignite-ui/docs && changeset publish"
   },
   "devDependencies": {
-    "turbo": "^1.13.3"
-  },
-  "dependencies": {
-    "@storybook/addon-a11y": "^8.1.3"
+    "turbo": "^1.13.3",
+    "@changesets/cli": "^2.27.3"
   }
 }
