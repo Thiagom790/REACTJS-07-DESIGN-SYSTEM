@@ -24,7 +24,7 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          TURBO_TOKEN: GAerAbec7wote9z0ij5VAB1Y
+          TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
           TURBO_TEAM: thiago-marques-teixeiras-projects
 
       - name: Deploy storybook
