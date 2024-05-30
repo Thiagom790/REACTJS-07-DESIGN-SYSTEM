@@ -1,0 +1,1 @@
+import{t as o}from"./index-D5f70Krw.js";import"./index-uCp2LrAq.js";import"./_commonjsHelpers-BosuxZz1.js";const s={tags:["autodocs"],parameters:{backgrounds:{default:"dark"},controls:{matchers:{color:/(background|color)$/i,date:/Date$/i}},addons:["@storybook/addon-essentials"],docs:{themes:o.dark}}};export{s as default};
