@@ -21,6 +21,9 @@ jobs:
 
       - name: Build
         run: npm run build
+        env:
+          TURBO_TOKEN: GAerAbec7wote9z0ij5VAB1Y
+          TURBO_TEAM: thiago-marques-teixeiras-projects
 
       - name: Deploy storybook
         working-directory: ./packages/docs
